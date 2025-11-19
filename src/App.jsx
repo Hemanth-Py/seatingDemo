@@ -47,7 +47,7 @@ function App() {
     <div style={{ height: '100%' }}>
       <h1>Seats.io Seating Chart</h1>
       {holdToken && <div>Hold token: {holdToken}</div>}
-      <div style={{ height: '800px' }}>
+      <div style={{ height: '640px', width: '90vw' }}>
         <SeatsioSeatingChart
           workspaceKey={import.meta.env.VITE_SEATSIO_WORKSPACE_KEY}
           event={import.meta.env.VITE_SEATSIO_EVENT_KEY}
