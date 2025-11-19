@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn-eu.seatsio.net/chart.js"></script>
+
+</head>
+
+<body>
+<div id="chart"></div>
+
+
+</body>
+
+<script>
+    new seatsio.SeatingChart({
+        divId: 'chart',
+        workspaceKey: 'a1ac1d75-d057-44fa-8281-66b8bca78b33',
+        event: '773a1a87-292a-4f1c-9d89-090abc4c7cc2'
+    }).render();
+
+<!--    new seatsio.SeatingChart({-->
+<!--        divId: 'chart',-->
+<!--        workspaceKey: 'a1ac1d75-d057-44fa-8281-66b8bca78b33',-->
+<!--        event: '773a1a87-292a-4f1c-9d89-090abc4c7cc2'-->
+<!--        session: 'continue',-->
+<!--        pricing: [-->
+<!--           {'category': 1, 'price': 30},-->
+<!--           {'category': 2, 'price': 40},-->
+<!--           {'category': 3, 'price': 50}-->
+<!--        ],-->
+<!--        priceFormatter: function(price) {-->
+<!--            return '$' + price;-->
+<!--        }-->
+<!--    }).render();-->
+</script>
+</html>
